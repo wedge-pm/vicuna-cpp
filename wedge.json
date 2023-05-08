@@ -1,7 +1,7 @@
 {
   "name": "vicuna-cpp",
   "weights": [
-    "file:/home/vishnumenon/Documents/data-for-wedge/weights/ggml-vicuna-7b-q4_0.bin"
+    "https://huggingface.co/chharlesonfire/ggml-vicuna-7b-4bit/resolve/main/ggml-vicuna-7b-q4_0.bin"
   ],
   "flake": "github:ggerganov/llama.cpp",
   "setup": "npm --prefix ./server install",
